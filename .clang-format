@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM
+ColumnLimit: 120
+
+UseTab: ForIndentation
+IndentWidth: 4
+TabWidth: 4
+
+IndentCaseLabels: false
+IndentAccessModifiers: false
+AccessModifierOffset: -4
+
+AlignArrayOfStructures: Left
+PackArguments:
+  BinPack: OnePerLine
+
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseExpressionOnASingleLine: true
